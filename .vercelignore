@@ -1,0 +1,20 @@
+# Backend files (not needed for frontend deployment)
+backend/
+docker-compose.yml
+phases/
+design/
+assets/
+
+# Development files
+*.md
+!frontend/README.md
+
+# Git files
+.git/
+.gitignore
+
+# Environment files (handled by Vercel dashboard)
+.env
+.env.local
+.env.*.local
+

@@ -1,0 +1,33 @@
+# Vercel
+.vercel
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Backend Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Frontend (already handled by frontend/.gitignore)
+# But keeping node_modules here too for root level
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
