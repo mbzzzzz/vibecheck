@@ -1,6 +1,7 @@
 // Fonts and Icons are loaded via global CSS or layout links
 import type { Metadata } from "next";
 import Providers from "./providers";
+import { AuthProvider } from "./auth-provider";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -32,7 +33,9 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet" />
       </head>
       <body className="font-display antialiased bg-background-light dark:bg-background-dark text-slate-900 dark:text-white">
-        <Providers>{children}</Providers>
+        <Providers>
+          <AuthProvider>{children}</AuthProvider>
+        </Providers>
       </body>
     </html>
   );

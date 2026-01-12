@@ -73,7 +73,7 @@ export default function LandingPage() {
               </button>
               <Link
                 className="hidden md:inline-flex items-center justify-center px-5 py-2.5 border border-transparent text-sm font-semibold rounded-full text-white bg-primary hover:bg-primary-dark shadow-[0_0_20px_-5px_rgba(139,92,246,0.5)] transition-all transform hover:scale-105"
-                href="/onboarding"
+                href="/auth/sign-in"
               >
                 Get Started
               </Link>
@@ -108,7 +108,7 @@ export default function LandingPage() {
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                 <Link
                   className="w-full sm:w-auto px-8 py-4 bg-slate-900 dark:bg-white text-white dark:text-slate-900 font-bold rounded-full shadow-lg hover:shadow-xl hover:-translate-y-1 transition-all flex items-center justify-center gap-2"
-                  href="/onboarding"
+                  href="/auth/sign-in"
                 >
                   <span className="material-icons-round">radar</span>
                   Audit My Vibe
