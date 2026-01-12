@@ -1,0 +1,19 @@
+{
+    "breakpoints": {
+        "mobile": "375px",
+        "tablet": "768px",
+        "desktop": "1200px",
+        "wide": "1536px"
+    },
+    "containers": {
+        "mobile": "100%",
+        "tablet": "720px",
+        "desktop": "1140px",
+        "wide": "1440px"
+    },
+    "typography_scale_factor": {
+        "mobile": 0.875,
+        "tablet": 1,
+        "desktop": 1.125
+    }
+}

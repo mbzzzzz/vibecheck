@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+  /* User Design System Colors */
+  --primary: #0d0df2;
+  --primary-hover: #0000c0;
+  --background-light: #f5f5f8;
+  --background-dark: #101022;
+  --surface-dark: #1c1c2e;
+  --surface-highlight: #25253a;
+  --card-dark: #1a1a2e;
+  --card-hover: #22223b;
+  --accent: #06b6d4;
+
+  /* Additional from Landing Page */
+  --primary-500: #8b5cf6;
+  /* Violet-500 base */
+  --primary-dark: #7c3aed;
+  /* Violet-600 */
+  --background-slate-50: #f8fafc;
+  --background-slate-900: #0f172a;
+}
+
+
+
+/* Custom Utilities from Design */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.dark .glass-panel {
+  background: rgba(30, 41, 59, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.blob {
+  position: absolute;
+  filter: blur(80px);
+  z-index: 0;
+  opacity: 0.6;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101022;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #282839;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f5a;
+}

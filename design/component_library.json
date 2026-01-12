@@ -1,0 +1,70 @@
+{
+    "buttons": {
+        "primary": {
+            "bg": "linear-gradient(135deg, #4c1d95 0%, #3b82f6 100%)",
+            "text": "white",
+            "hover": "scale(1.05) brightness(1.1)",
+            "borderRadius": "0.5rem",
+            "padding": "0.75rem 1.5rem",
+            "fontWeight": "600"
+        },
+        "secondary": {
+            "bg": "rgba(255, 255, 255, 0.1)",
+            "text": "white",
+            "border": "1px solid rgba(255, 255, 255, 0.2)",
+            "hover": "bg-white/20",
+            "borderRadius": "0.5rem"
+        },
+        "ghost": {
+            "bg": "transparent",
+            "text": "#9ca3af",
+            "hover": "text-white bg-white/5"
+        },
+        "danger": {
+            "bg": "rgba(239, 68, 68, 0.1)",
+            "text": "#ef4444",
+            "border": "1px solid rgba(239, 68, 68, 0.2)",
+            "hover": "bg-red-500/20"
+        }
+    },
+    "cards": {
+        "default": {
+            "bg": "rgba(255, 255, 255, 0.03)",
+            "border": "1px solid rgba(255, 255, 255, 0.05)",
+            "backdropFilter": "blur(10px)",
+            "borderRadius": "1rem",
+            "padding": "1.5rem"
+        },
+        "interactive": {
+            "extends": "default",
+            "hover": "border-purple-500/50 translateY(-2px) shadow-glow"
+        },
+        "highlight": {
+            "extends": "default",
+            "bg": "linear-gradient(180deg, rgba(76, 29, 149, 0.1) 0%, rgba(10, 10, 10, 0) 100%)",
+            "border": "1px solid rgba(139, 92, 246, 0.2)"
+        }
+    },
+    "inputs": {
+        "default": {
+            "bg": "rgba(0, 0, 0, 0.3)",
+            "border": "1px solid rgba(255, 255, 255, 0.1)",
+            "text": "white",
+            "placeholder": "#6b7280",
+            "focus": "border-purple-500 ring-2 ring-purple-500/20",
+            "borderRadius": "0.5rem",
+            "padding": "0.75rem"
+        }
+    },
+    "charts": {
+        "colors": [
+            "#8b5cf6",
+            "#3b82f6",
+            "#10b981",
+            "#f59e0b",
+            "#ef4444"
+        ],
+        "grid": "rgba(255, 255, 255, 0.05)",
+        "tooltip_bg": "rgba(15, 23, 42, 0.9)"
+    }
+}
