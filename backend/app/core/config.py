@@ -28,13 +28,14 @@ class Settings(BaseSettings):
 
     # Database
     DATABASE_URL: PostgresDsn
-    REDIS_URL: RedisDsn
+    REDIS_URL: str = "redis://localhost:6379/0" # Default for local dev/optional
 
     # Security
-    JWT_SECRET: str
+    JWT_SECRET: str = "changethis" # Default for dev
     ACCESS_TOKEN_EXPIRE_MINUTES: int = 60 * 24 * 8  # 8 days
     
-    # Third Party Keys (Optional for local dev startup if validated loosely)
+    # AI Keys
+    GEMINI_API_KEY: str = ""
     GROQ_API_KEY: str = ""
     HF_TOKEN: str = ""
     SUPABASE_URL: str = ""

@@ -68,3 +68,4 @@ Create these in Vercel Dashboard → Project Settings → Environment Variables:
 - **API calls fail**: Verify `NEXT_PUBLIC_API_URL` is set correctly
 - **CORS errors**: Update backend CORS settings to include Vercel domain
 
+
