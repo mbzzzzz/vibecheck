@@ -11,7 +11,7 @@
         "start": "cd frontend && npm start",
         "lint": "cd frontend && npm run lint"
     },
-    "devDependencies": {
+    "dependencies": {
         "next": "14.0.0"
     },
     "engines": {
